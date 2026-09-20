@@ -4,6 +4,7 @@ import { ButtonLink } from '../components/ButtonLink';
 import { PartnerLogos } from '../components/PartnerLogos';
 import { ProgramCarousel } from '../components/ProgramCarousel';
 import { SectionHeading } from '../components/SectionHeading';
+import { Typewriter } from '../utils/Typewriter';
 
 export function HomePage() {
   return (
@@ -16,9 +17,15 @@ export function HomePage() {
               <Sparkles size={14} />
               Opportunities grow through community
             </div>
-            <h1 className="text-balance text-5xl font-semibold tracking-[-0.065em] text-ink sm:text-7xl lg:text-[5.8rem] lg:leading-[0.98]">
-              pamwechete, tinosvika kure.
-            </h1>
+            <Typewriter
+                text="pamwechete,"
+                className="text-balance text-5xl font-semibold tracking-[-0.065em] text-ink sm:text-7xl lg:text-[5.8rem] lg:leading-[0.98]"
+              />
+            <Typewriter
+                text="tinosvika kure."
+                delay={0.9}
+                className="text-balance text-5xl font-semibold tracking-[-0.065em] text-ink sm:text-7xl lg:text-[5.8rem] lg:leading-[0.98]"
+              />
             <p className="mx-auto mt-7 max-w-2xl text-pretty text-base leading-7 text-ink-muted sm:text-lg sm:leading-8">
               Pamwechete is a student-led initiative bridging the gap between opportunities, talent and resources — one conversation at a time.
             </p>
@@ -91,7 +98,7 @@ export function HomePage() {
             <SectionHeading
               eyebrow="Our partners"
               title="Some of our proud partners"
-              // description="The organisations that help make the work possible."
+              description="The organisations that help make the work possible."
               align="center"
             />
             <div className="mt-10 w-full">
