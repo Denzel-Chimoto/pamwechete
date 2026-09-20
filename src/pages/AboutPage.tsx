@@ -1,5 +1,5 @@
 import { ArrowRight, BookOpen, Handshake, Mail, Users } from 'lucide-react';
-import { ButtonLink } from '../components/ButtonLink';
+// import { ButtonLink } from '../components/ButtonLink';
 import { PartnerLogos } from '../components/PartnerLogos';
 import { SectionHeading } from '../components/SectionHeading';
 
