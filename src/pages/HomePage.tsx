@@ -91,7 +91,7 @@ export function HomePage() {
             <SectionHeading
               eyebrow="Our partners"
               title="Some of our proud partners"
-              description="A placeholder partner wall is included so you can swap in the organisations that help make the work possible."
+              // description="The organisations that help make the work possible."
               align="center"
             />
             <div className="mt-10 w-full">
