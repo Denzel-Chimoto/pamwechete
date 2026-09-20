@@ -27,13 +27,13 @@ export function Footer() {
           <h2 className="text-sm font-semibold text-ink">Get involved</h2>
           <p className="mt-4 text-sm leading-6 text-ink-muted">Have an opportunity, resource or partnership to share?</p>
           <a href="mailto:hello@pamwechete.org" className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-brand-700 hover:text-brand-800 dark:text-brand-300 dark:hover:text-brand-200">
-            hello@pamwechete.org <ArrowUpRight size={15} />
+            chimototofara@gmail.com <ArrowUpRight size={15} />
           </a>
         </div>
       </div>
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-xs text-ink-subtle sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <span>© {new Date().getFullYear()} Pamwechete. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} YouthTalk UZ. All rights reserved.</span>
           <span>Faster alone. Further together.</span>
         </div>
       </div>
