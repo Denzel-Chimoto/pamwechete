@@ -74,10 +74,10 @@ export function AboutPage() {
             <div className="max-w-2xl">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-700 dark:text-brand-300">Partner with us</p>
               <h2 className="mt-4 text-3xl font-semibold tracking-[-0.04em] text-brand-950 dark:text-brand-50 sm:text-4xl">Have an opportunity, resource or idea to share?</h2>
-              <p className="mt-4 text-base leading-7 text-brand-900/70 dark:text-brand-100/70">Start the conversation. The static site currently routes partnership enquiries to email; a backend can be added later without changing the UI architecture.</p>
+              <p className="mt-4 text-base leading-7 text-brand-900/70 dark:text-brand-100/70">Start the conversation.</p>
             </div>
             <a
-              href="mailto:hello@pamwechete.org"
+              href="mailto:chimototofara@gmail.com"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-400"
             >
               <Mail size={16} />

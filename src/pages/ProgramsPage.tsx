@@ -16,7 +16,7 @@ export function ProgramsPage() {
         <SectionHeading
           eyebrow="Programs"
           title="Projects built around access, connection and opportunity."
-          description="This page and the homepage carousel intentionally use the same static programme repository, so content only needs to be maintained in one place."
+          // description="This page and the homepage carousel intentionally use the same static programme repository, so content only needs to be maintained in one place."
         />
 
         <div className="mt-10 flex flex-wrap gap-2" role="tablist" aria-label="Programme status">
