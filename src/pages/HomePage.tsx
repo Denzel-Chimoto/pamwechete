@@ -26,9 +26,9 @@ export function HomePage() {
                 delay={0.9}
                 className="text-balance text-5xl font-semibold tracking-[-0.065em] text-ink sm:text-7xl lg:text-[5.8rem] lg:leading-[0.98]"
               />
-            <p className="mx-auto mt-7 max-w-2xl text-pretty text-base leading-7 text-ink-muted sm:text-lg sm:leading-8">
+            {/* <p className="mx-auto mt-7 max-w-2xl text-pretty text-base leading-7 text-ink-muted sm:text-lg sm:leading-8">
               Pamwechete is a student-led initiative bridging the gap between opportunities, talent and resources — one conversation at a time.
-            </p>
+            </p> */}
             <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <ButtonLink to="/programs" showArrow>
                 Explore our programs
